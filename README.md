@@ -79,11 +79,11 @@ This repository presents a research project focused on simulating **False Data I
 ---
 
 ## Client | Avg MSE | Anomaly Rate
-C1 | 0.1378 | 15.87%
-C2 | 0.1291 | 12.12%
-C3 | 0.1360 | 14.65%
-C4 | 0.1322 | 12.12%
-C5 | 0.1333 | 12.37%
+* C1 | 0.1378 | 15.87%
+* C2 | 0.1291 | 12.12%
+* C3 | 0.1360 | 14.65%
+* C4 | 0.1322 | 12.12%
+* C5 | 0.1333 | 12.37%
 
 ## Key Functionalities
 1. Enhanced Autoencoder Architecture
