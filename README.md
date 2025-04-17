@@ -1,5 +1,5 @@
-# Federated-Learning-and-Generative-AI
-# 🧠 GAN-Based SCADA Attack Simulation & Anomaly Detection
+
+# Federated Learning Anomaly Detection for Industrial Control Systems: A GAN-Based Attack Simulation
 
 This repository presents a research project focused on simulating **False Data Injection Attacks (FDIA)** on SCADA systems using **Generative Adversarial Networks (GANs)** and detecting them with deep learning-based anomaly detection models.
 
