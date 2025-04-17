@@ -7,6 +7,7 @@ This repository presents a research project focused on simulating **False Data I
 
 ---
 
+
 ## 📌 Project Overview
 
 - Simulate **multi-dimensional cyberattacks** using WGAN-GP on real SCADA sensor data (24 features).
@@ -77,7 +78,44 @@ This repository presents a research project focused on simulating **False Data I
 
 ---
 
-## 📦 Repository Structure
+## Client | Avg MSE | Anomaly Rate
+C1 | 0.1378 | 15.87%
+C2 | 0.1291 | 12.12%
+C3 | 0.1360 | 14.65%
+C4 | 0.1322 | 12.12%
+C5 | 0.1333 | 12.37%
+
+## Key Functionalities
+1. Enhanced Autoencoder Architecture
+Deep encoder-decoder using Swish activations, Batch Normalization, and Dropout
+
+Robust to noise and optimized for anomaly detection
+
+2. Federated Client Evaluation
+Simulates 5 SCADA clients using pre-saved datasets
+
+Computes local MSE and determines a global anomaly threshold
+
+3. GAN Attack Analysis
+GAN-simulated cyberattacks are passed through the trained model
+
+Computes reconstruction errors and anomaly detection rate
+
+4. Advanced Visualizations
+- KDE feature comparison
+
+- t-SNE projection of real vs attack samples
+
+- MSE distribution with anomaly threshold
+
+## 📦 Repository Structure 
+# Component | Description
+- main_pipeline() | The orchestrator function of all stages
+- clients_data/*.npy | Normalized federated client datasets
+- global_ae_model.h5 | Federated-trained global Autoencoder model
+- generated_attack_data.csv | GAN-generated cyberattack samples
+- SWaT_dataset_Jul 19 v2.csv | Real-world water treatment plant dataset from iTrust
+- images/feature-value-dist-normal-vs-gan.png | Distribution of GAN vs Normal samples for visualization
 
 
 ---
@@ -97,6 +135,13 @@ This repository presents a research project focused on simulating **False Data I
 - Integrate more attack types (DDoS, MITM).
 - Extend to **cross-site federated learning** using additional ICS datasets (e.g., BATADAL).
 - Use **VAE-GAN** or **Diffusion Models** for higher realism in attack simulation.
+# Task | Status
+🎯 GAN-based FDIA attack simulation | ✅ Complete
+🔍 Federated Learning autoencoder | ✅ Complete
+📊 Visualization of attack behavior | ✅ Complete
+🧪 Fine-tune detection thresholds | 🕐 In Progress
+🔄 Add temporal LSTM-based modeling | 🔜 Planned
+🔐 Privacy-preserving FL metrics | 🔜 Planned
 
 ---
 
