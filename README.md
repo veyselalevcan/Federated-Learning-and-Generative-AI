@@ -135,13 +135,14 @@ Computes reconstruction errors and anomaly detection rate
 - Integrate more attack types (DDoS, MITM).
 - Extend to **cross-site federated learning** using additional ICS datasets (e.g., BATADAL).
 - Use **VAE-GAN** or **Diffusion Models** for higher realism in attack simulation.
+  
 # Task | Status
-🎯 GAN-based FDIA attack simulation | ✅ Complete
-🔍 Federated Learning autoencoder | ✅ Complete
-📊 Visualization of attack behavior | ✅ Complete
-🧪 Fine-tune detection thresholds | 🕐 In Progress
-🔄 Add temporal LSTM-based modeling | 🔜 Planned
-🔐 Privacy-preserving FL metrics | 🔜 Planned
+- GAN-based FDIA attack simulation | ✅ Complete
+- Federated Learning autoencoder | ✅ Complete
+- Visualization of attack behavior | ✅ Complete
+- Fine-tune detection thresholds | 🕐 In Progress
+- Add temporal LSTM-based modeling | 🔜 Planned
+- Privacy-preserving FL metrics | 🔜 Planned
 
 ---
 
