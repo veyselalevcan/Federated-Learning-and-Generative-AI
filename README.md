@@ -64,7 +64,7 @@ This repository presents a research project focused on simulating **False Data I
    - **LSTM-AE**
    - **Transformer (optional extension)**
 
-4. **Federated Learning Setup (optional):**
+4. **Federated Learning Setup:**
    - Clients receive partitioned datasets with local attacks.
    - Models are trained collaboratively without raw data sharing.
 
